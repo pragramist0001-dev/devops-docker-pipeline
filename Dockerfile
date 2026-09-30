@@ -2,7 +2,7 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 # 2-bosqich: Yengil va xavfsiz Production Image
 FROM node:20-alpine
