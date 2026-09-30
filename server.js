@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.json({ status: 'success', message: 'DevOps Pipeline successfully running!' });
+  res.json({ status: 'success', message: 'DevOps Pipeline v2 test is successful!' });
 });
 
 app.get('/health', (req, res) => {
