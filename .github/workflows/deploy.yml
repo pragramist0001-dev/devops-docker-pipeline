@@ -1,6 +1,8 @@
 cat << 'EOF' > .github/workflows/deploy.yml
 name: CI/CD Docker Pipeline
 
+# Azizbek
+
 on:
   push:
     branches: [ "main" ]
