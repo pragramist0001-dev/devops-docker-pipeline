@@ -1,7 +1,4 @@
-cat << 'EOF' > .github/workflows/deploy.yml
 name: CI/CD Docker Pipeline
-
-# Azizbek
 
 on:
   push:
@@ -32,4 +29,3 @@ jobs:
           tags: |
             pragramist0001/devops-docker-pipeline:latest
             pragramist0001/devops-docker-pipeline:v1.0.0
-EOF
